@@ -1,0 +1,168 @@
+@font-face
+{
+    font-family: 'police1';
+    src : url('police1.otf');
+}
+
+@font-face
+{
+    font-family: 'police2';
+    src : url('police2.otf');
+}
+
+@font-face
+{
+    font-family: 'police3';
+    src : url('police3.ttf');
+}
+
+body
+{
+    background-image: url("fond2.jpg");
+    background-repeat: repeat;
+}
+
+#bloc_page
+{
+    width: 1100px;
+    margin: auto;
+}
+
+header
+{
+    background: url('fond.jpg') ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: 6px 6px 0px black;
+    padding:20px 20px 20px 20px;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#plume
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+header h1
+{
+    font-family: 'police1', serif;
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    color: white;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 20px;
+}
+
+nav a
+{
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Police3', Arial, serif;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: maroon;
+    border-bottom: 3px solid maroon;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-family: 'police3', arial, serif;
+}
+
+#délimitation
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+#délimitation2
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+h3
+{
+    color: maroon;
+    font-size: 1.7em;
+    font-family: 'Police3', Arial, serif;
+}
+
+#section
+{
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    box-shadow: 6px 6px 0px black;
+}
+
+#section a
+{
+    color: black;
+    font-family: 'Police3', Arial, serif;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#section a:hover
+{
+    color: maroon;
+    border-bottom: 3px solid maroon;
+}
+
+form label
+{
+    font-family: 'Police3', Arial, serif;
+    font-size: 0.9em;
+}
+
+form td input
+{
+     border-radius: 20px 5px 20px 5px;
+}
+
+#bouton
+{
+    box-shadow: 6px 6px 0px black;
+    font-family: 'Police3', Arial, serif;
+    font-size: 1.1em;
+    border-radius: 20px 5px 20px 5px;
+}
+
+h5
+{
+    color: red;
+    font-size: 1.4em;
+    font-family: 'Police3', Arial, serif;
+    margin-bottom: -20px;
+}
